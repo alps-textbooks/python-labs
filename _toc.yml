@@ -1,0 +1,42 @@
+# Synthesized table of contents for import into ALPS.
+# The upstream repository is a notebook collection with no Jupyter Book TOC;
+# this file gives it a book structure without altering any lesson content.
+
+format: jb-book
+root: README
+parts:
+  - caption: "Lab handouts"
+    chapters:
+      - file: archive/markdown/lab1-warmup
+      - file: archive/markdown/lab2-datastructures
+      - file: archive/markdown/lab3-functions
+      - file: archive/markdown/lab4-fp
+      - file: archive/markdown/lab5-oop
+      - file: archive/markdown/lab6-standardlibrary
+      - file: archive/markdown/lab7-thirdparty
+      - file: archive/markdown/lab8-pythonecosystem
+      - file: handouts/lab-2/data-structures
+  - caption: "Lab notebooks (Winter 2020)"
+    chapters:
+      - file: archive/notebooks-win20/lab-2/data-structures-part-1
+      - file: archive/notebooks-win20/lab-2/data-structures-part-2
+      - file: archive/notebooks-win20/lab-4/functions-and-fp-part-1
+      - file: archive/notebooks-win20/lab-4/functions-and-fp-part-2
+      - file: archive/notebooks-win20/lab-5/wallscraper-notebook
+      - file: archive/notebooks-win20/lab-6/lab6-part1-numpy
+      - file: archive/notebooks-win20/lab-6/lab6-part2-oop
+      - file: archive/notebooks-win20/lab-8/sl-tpl-ml-part-1
+      - file: archive/notebooks-win20/lab-8/sl-tpl-ml-part-2
+  - caption: "Lab notebooks (Winter 2019)"
+    chapters:
+      - file: archive/notebooks-win19/lab1-warmup-notebook
+      - file: archive/notebooks-win19/lab2-datastructures-notebook
+      - file: archive/notebooks-win19/lab3-functions-notebook
+      - file: archive/notebooks-win19/lab4-fp-notebook
+      - file: archive/notebooks-win19/lab5-oop-notebook
+      - file: archive/notebooks-win19/lab6-standardlibrary-notebook
+      - file: archive/notebooks-win19/lab7-thirdparty-notebook
+      - file: archive/notebooks-win19/lab8-pythonecosystem-notebook
+  - caption: "Supplementary"
+    chapters:
+      - file: archive/pandas
