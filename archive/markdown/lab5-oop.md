@@ -366,7 +366,7 @@ class Silencer():
         pass
 ```
 
-The `__enter__` method is called when the with block is entered, and `__exit__` is called when leaving the block, with any relevant information about an active exception passed in. Write the `__enter__` method to redirect standard output and standard error to stringio.StringIO() objects to capture the output, and make sure that `__exit__` restored the saved stdout and stderr. What would a `__str__` method on a Silencer object look like?
+The `__enter__` method is called when the with block is entered, and `__exit__` is called when leaving the block, with any relevant information about an active exception passed in. Write the `__enter__` method to redirect standard output and standard error to io.StringIO() objects to capture the output, and make sure that `__exit__` restored the saved stdout and stderr. What would a `__str__` method on a Silencer object look like?
 
 Recall that the with statement in Python is *almost* implemented as:
 
