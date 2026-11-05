@@ -40,3 +40,7 @@ parts:
   - caption: "Supplementary"
     chapters:
       - file: archive/pandas
+  - caption: Back Matter
+    chapters:
+      - file: about-this-book
+        title: About This Book
