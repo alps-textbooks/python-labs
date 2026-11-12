@@ -4,14 +4,14 @@
 
 **Python Labs** · *Lab notebooks from Stanford CS41*
 
-**2Sigma School** · Alps edition · Updated October 2026
+**2Sigma School** · Alps edition · Updated November 2026
 
-These are the lab notebooks of Stanford CS41: data structures, functions, functional programming, object-oriented programming and the standard library. This Alps edition runs the book's code in the page, with nothing to install.
+These are the lab handouts and notebooks of Stanford CS41: data structures, functions and functional programming, object-oriented programming, the standard library, NumPy and image processing, and machine learning with scikit-learn. This Alps edition runs the book's code in the page, with nothing to install.
 
 | At a glance | |
 |---|---|
 | **28 pages** | The book's chapters and sections |
-| **246 code cells** | Python that runs in the browser, apart from any cells shown for reference |
+| **267 code cells** | Python that runs in the browser, apart from any cells shown for reference |
 
 ## How to Use It
 
@@ -36,9 +36,7 @@ The labs' authors are not affiliated with, and do not endorse, this edition.
 This edition differs from its source so that the book works on Alps, where its code runs in the browser rather than on an installed copy of Python. Alps compatibility is the primary difference. Depending on the page, the changes include:
 
 - a table of contents, or changes to one, so that the book imports as chapters and pages
-- code adjusted for the library versions that run in the browser, or for libraries and system tools that are not available there
 - data read from a place the browser can reach, or replaced where the original can no longer be loaded
-- cells shown for reference, when they need something the browser cannot do
 - cells marked as expected to fail, such as a blank for the reader to fill in
 - corrections to Markdown or code, so that a page renders and runs
 
