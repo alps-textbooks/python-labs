@@ -11,7 +11,7 @@ These are the lab handouts and notebooks of Stanford CS41: data structures, func
 | At a glance | |
 |---|---|
 | **28 pages** | The book's chapters and sections |
-| **246 code cells** | Python that runs in the browser, apart from any cells shown for reference |
+| **267 code cells** | Python that runs in the browser, apart from any cells shown for reference |
 
 ## How to Use It
 
